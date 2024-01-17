@@ -1,7 +1,7 @@
 key = "E39XY9J91K0GE81DUPP"
 KY = input("Insira a key de acesso:: ")
 while True:
-    if ky == key:
+    if KY == key:
         print('ok')
     else:
         break
