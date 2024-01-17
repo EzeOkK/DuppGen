@@ -1,5 +1,10 @@
-
-
+key = "E39XY9J91K0GE81DUPP"
+KY = input("Insira a key de acesso:: ")
+while True:
+    if ky == key:
+        print('ok')
+    else:
+        break
 
 #  tor
 import os
