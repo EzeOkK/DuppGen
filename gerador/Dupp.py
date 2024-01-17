@@ -1,17 +1,4 @@
 
-import json
-with open("key.json", "r") as f:
-    key = f.read()
-    key_obj = json.loads(key)
-
-
-user_key = input("Digite a chave: ")
-
-if user_key == key_obj["user"]:
-    print("A chave está correta!")
-else:
-    print("A chave está incorreta!")
-    
 
 
 #  tor
