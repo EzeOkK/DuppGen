@@ -1,6 +1,6 @@
 
 import json
-with open(".key.json", "r") as f:
+with open("key.json", "r") as f:
     key = f.read()
     key_obj = json.loads(key)
 
