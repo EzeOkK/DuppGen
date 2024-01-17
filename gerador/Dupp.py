@@ -1,29 +1,5 @@
 
 #  tor
-import json
-
-def load_keys_from_file():
-    try:
-        with open(".key.json", "r") as file:
-            keys_from_file = json.load(file)
-        return keys_from_file
-    except FileNotFoundError:
-        print("File .key.json not found.")
-        return {}
-
-keys_log = load_keys_from_file()
-
-def check_key():
-    while True:
-        entered_key = input("Enter the key: ")
-
-        if entered_key in keys_log.values():
-            print("Valid key. Access granted.")
-            break
-        else:
-            print("Invalid key. Please try again.")
-
-check_key()
 import os
 from urllib.parse import urljoin, urlencode
 from time import time, sleep
