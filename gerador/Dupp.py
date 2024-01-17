@@ -1,5 +1,6 @@
 
 #  tor
+key = input("Insira a key aqui:: ")
 
 import os
 from urllib.parse import urljoin, urlencode
@@ -20,12 +21,12 @@ from yarl import URL
 from pytz import timezone as pytz_timezone
 from flask import Flask
 from json_minify import json_minify
-
+,
 
 parameters = {
     # community link or invite link
     "community-link":
-        "http://aminoapps.com/invite/77FC1LEDHT",
+        "http://aminoapps.com/invite/TFJ345A1PX",
     # file containing the accounts list[dict]: email, password, device
     "accounts-file":
         "acc.json",
