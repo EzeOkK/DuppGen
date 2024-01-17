@@ -43,7 +43,7 @@ from yarl import URL
 from pytz import timezone as pytz_timezone
 from flask import Flask
 from json_minify import json_minify
-,
+
 
 parameters = {
     # community link or invite link
